@@ -1,4 +1,4 @@
-# GAN_reading_club
+# GAN Reading Club
 
 To train the GAN, you need to enter this command line :
 
