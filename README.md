@@ -4,7 +4,7 @@ To train the GAN, you need to enter this command line :
 
 ``` ./training_dataset.py <dataset> <N_images> <N_epochs> <N_save> ```
 
-with `N_images` the number of images used in the dataset, `N_epochs` the number of epochs and `N_save` the number of epochs between two saves.
+with `N_images` the number of images used in the dataset (PLEASE NOTICE THE TOTAL NUMBER OF IMAGES IN THE DATASET), `N_epochs` the number of epochs and `N_save` the number of epochs between two saves.
 
 EXAMPLE :
 ``` ./training_dataset.py kagle_sup256 2973 5000 1000 ```
