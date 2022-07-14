@@ -16,7 +16,9 @@ Note : Please put your datasets in `dataset`.
 
 To generate images, you must train the GAN first to have two `.h5` files. Next, enter this command line :
 
-``` ./generation.py <name of dataset> <number of epoch used to train the model> <number of images you want> ```
+``` ./generation.py <dataset> <N_epochs> <N_images> ```
+
+with `N_epochs` the number of epoch used to train the model and `N_images` the number of images you want to generate.
 
 EXAMPLE :
 ``` ./generation.py kagle_256 5000 100 ```
